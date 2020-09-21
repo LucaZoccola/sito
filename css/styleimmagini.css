@@ -1,0 +1,163 @@
+.cursor-pointer{
+  cursor: url('freccia.png'), auto;
+}
+
+ a{
+	text-decoration: none;
+	color: black!important;
+	transition: 1300s;
+}
+
+a:visited{
+	text-decoration: none;
+	color:black;
+}
+
+a:active{
+  text-decoration: none;
+	color:white;
+}
+
+a:hover{
+	color:black;
+}
+
+.hiddenimg {
+  display: none;
+}
+
+.hiddentxt a {
+  text-decoration: none;
+}
+
+.hiddentxt:hover ~ .hiddenimg {
+  display: block;
+}
+
+.navbar {
+	padding: 2px !important;
+}
+
+
+.navbar {
+	padding: 2px !important;
+}
+
+.col-sm-6{
+	padding-left: 5px !important;
+}
+.col-sm-3{
+	padding-left: 5px !important;
+}
+.col-sm-12{
+	padding-left: 5px !important;
+}
+
+.hiddenimg {
+  display: none;
+}
+
+.hiddentxt a {
+  text-decoration: none;
+}
+
+.hiddentxt:hover ~ .hiddenimg {
+  display: block;
+}
+
+/*  navbar -----------------------------------------------------------------------------------*/
+
+
+
+.dropdown-menu {
+  border: 0px !important;
+}
+.dropdown-item{
+	font-size: 40px;
+	  line-height:35px;
+    font-family: "favorit";
+    padding: 5px !important;
+}
+
+
+.dropdown-item:hover {
+    text-decoration: underline;
+}
+
+.nav-item2 {
+  font-size: 40px;
+	  line-height:20px;
+color: grey !important;
+    font-family: "Favorit";
+}
+
+.nav-item {
+  font-size: 40px;
+	  line-height:40px;
+color: grey !important;
+    font-family: "Favorit";
+}
+
+@media screen and (max-width: 780px) {
+   .nav-item {
+      font-size: 8vw !important;
+line-height:7vw;
+   }
+}
+
+
+/*  TESTI CSS -----------------------------------------------------------------------------------*/
+.container-fluid {
+  margin-top: 70px;
+}
+
+
+.pxgiga {
+
+  font-size: 4vw !important;
+	line-height:3.5vw;
+    font-family: "Favorit";
+		color: black !important;
+}
+
+@media screen and (max-width: 980px) {
+   .pxgiga {
+      font-size: 12vw !important;
+line-height:10vw;
+   }
+}
+
+.pxgrande {
+  font-size: 30px;
+	  line-height:33px;
+    font-family: "Favorit";
+color: black !important;
+
+}
+.pxmedio {
+	font-size: 19px;
+	  line-height:21px;
+    font-family: "Favorit";
+
+}
+
+.pxpiccioli {
+  font-family: "Favorit Medium";
+  color: black;
+  font-size: 14px;
+  line-height:15px;
+
+}
+	/*  HR BARRE -----------------------------------------------------------------------------------*/
+
+.hr {
+	border-color: black;
+	margin-bottom: 0.5px;
+	margin-top: 0.5px;
+	margin-left: 0px;
+}
+/*  overflow -----------------------------------------------------------------------------------*/
+.overflow {
+	overflow-x: hidden;
+ overflow-y: auto;
+}

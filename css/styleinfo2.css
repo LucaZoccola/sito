@@ -1,0 +1,147 @@
+
+
+a{
+	text-decoration: none;
+	color: white!important;
+	transition: 1300s;
+}
+
+a:visited{
+	text-decoration: none;
+	color:white;
+}
+
+a:active{
+  text-decoration: none;
+	color:white;
+}
+
+a:hover{
+
+	color:white;
+
+}
+
+
+.block {
+	display: block;
+}
+
+
+
+.navbar {
+	padding: 2px !important;
+	  color: white;
+}
+/*  navbar -----------------------------------------------------------------------------------*/
+
+
+
+.dropdown-menu {
+  border: 0px !important;
+	background-color: #dadada !important;
+}
+
+
+.dropdown-item:hover {
+    text-decoration: underline;
+}
+
+.nav-item2 {
+  font-size: 40px;
+	  line-height:20px;
+color: black!important;
+    font-family: "Favorit";
+}
+
+
+/*  TESTI CSS -----------------------------------------------------------------------------------*/
+.container-fluid {
+  margin-top: 65px;
+}
+
+.nav-item {
+  font-size: 40px;
+	  line-height:40px;
+color: black!important;
+    font-family: "favorit";
+}
+
+.pxgiga {
+  font-size: 42px !important;
+	  line-height:42px;
+    font-family: "favorit";
+color: black!important;
+}
+
+.pxgrande {
+  font-size: 30px;
+	  line-height:30px;
+    font-family: "Favorit";
+		color: black!important;
+}
+
+.pxmedio {
+	font-size: 15px;
+	  line-height:17px;
+    font-family: "favorit";
+
+		  color: black;
+}
+.pxpiccioli {
+  font-family: "favorit";
+color: black!important;
+  font-size: 14px;
+  line-height:14px;
+
+}
+
+
+	/*  HR BARRE -----------------------------------------------------------------------------------*/
+
+	.hr2 {
+	border-color: black;
+		margin-bottom: 0px;
+		margin-top: 0px;
+		margin-left: 0px;
+	}
+
+.hr {
+border-color: black;
+	margin-bottom: 5px;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+/*Set the row height to the viewport*/
+.row-height{
+  height: 100vh;
+}
+
+/*Set up the columns with a 100% height, body color and overflow scroll*/
+
+.right{
+  background-color: #dadada;
+  height: 100%;
+  overflow-y: scroll;
+}
+/*Remove the scrollbar from Chrome, Safari, Edge and IE*/
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+.col-md-3{
+	padding-right:  13px !important;
+	padding-left:  13px !important;
+}
+
+.col-md-12{
+	padding-right:  0px !important;
+	padding-left:  0px !important;
+}
+
+.col-sm-12{
+	padding-right:  0px !important;
+	padding-left:  0px !important;
+}

@@ -1,0 +1,87 @@
+.cursor-pointer{
+  cursor: url('freccia.png'), auto;
+}
+a{
+	text-decoration: none;
+	color: black!important;
+
+}
+
+a:visited{
+	text-decoration: none;
+	color:black !important;
+}
+
+a:active{
+  text-decoration: none;
+	color:white;
+}
+
+a:hover{
+ text-decoration: 5px;
+	color:white;
+
+}
+
+
+.block {
+	display: block;
+}
+
+.hiddenimg {
+  display: none;
+}
+
+.hiddentxt a {
+  text-decoration: none;
+}
+
+.hiddentxt:hover ~ .hiddenimg {
+  display: block;
+}
+
+.navbar {
+	padding: 2px !important;
+}
+
+/*  TESTI CSS -----------------------------------------------------------------------------------*/
+.container-fluid {
+  margin-top: 15px;
+}
+
+
+.pxgiga {
+  font-size: 16vw !important;
+	  line-height:12vw;
+    font-family: "Favorit";
+		color: black;
+
+}
+
+.pxgrande {
+  font-size: 30px;
+	  line-height:30px;
+    font-family: "Favorit";
+
+}
+
+
+
+.col-sm-12{
+	padding-right:  7px !important;
+	padding-left:  7px !important;
+}
+
+	/*  HR BARRE -----------------------------------------------------------------------------------*/
+
+.hr {
+	border-color: black;
+	margin-bottom: 0.5px;
+	margin-top: 0.5px;
+	margin-left: 0px;
+}
+/*  overflow -----------------------------------------------------------------------------------*/
+.overflow {
+	overflow-x: hidden;
+ overflow-y: auto;
+}
